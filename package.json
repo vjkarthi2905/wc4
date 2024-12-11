@@ -1,0 +1,19 @@
+{
+  "name": "telegram-wallet-connect",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "vite src",
+    "build": "vite build src"
+  },
+  "dependencies": {
+    "@walletconnect/modal": "^2.7.0",
+    "@walletconnect/types": "^2.17.2",
+    "@web3modal/wagmi": "^5.1.11",
+    "viem": "^2.21.54",
+    "wagmi": "^2.13.5"
+  },
+  "devDependencies": {
+    "vite": "^5.0.0"
+  }
+}
